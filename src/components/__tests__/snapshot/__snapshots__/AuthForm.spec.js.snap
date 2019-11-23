@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Login form correctly 1`] = `
+<div>
+  <div
+    className="row justify-content-md-center text-center"
+  >
+    <div
+      className="col-md-6"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <h2>
+          Welcome Back
+        </h2>
+        <label
+          htmlFor="email"
+        >
+          Email:
+        </label>
+        <input
+          className="form-control"
+          id="email"
+          name="email"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <label
+          htmlFor="password"
+        >
+          Password:
+        </label>
+        <input
+          className="form-control"
+          id="password"
+          name="password"
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+        <button
+          className="btn btn-primary btn-block btn-lg"
+          type="submit"
+        >
+          Log in
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render SignUp form correctly 1`] = `
+<div>
+  <div
+    className="row justify-content-md-center text-center"
+  >
+    <div
+      className="col-md-6"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <h2>
+          Join Warbler Today
+        </h2>
+        <label
+          htmlFor="email"
+        >
+          Email:
+        </label>
+        <input
+          className="form-control"
+          id="email"
+          name="email"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <label
+          htmlFor="password"
+        >
+          Password:
+        </label>
+        <input
+          className="form-control"
+          id="password"
+          name="password"
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+        <div>
+          <label
+            htmlFor="username"
+          >
+            Username:
+          </label>
+          <input
+            className="form-control"
+            id="username"
+            name="username"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <label
+            htmlFor="image-url"
+          >
+            Image URL:
+          </label>
+          <input
+            className="form-control"
+            id="image-url"
+            name="profileImageUrl"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          className="btn btn-primary btn-block btn-lg"
+          type="submit"
+        >
+          Sign me up!
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
