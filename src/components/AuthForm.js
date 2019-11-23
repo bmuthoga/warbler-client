@@ -9,15 +9,18 @@ class AuthForm extends Component {
       password: '',
       profileImageUrl: ''
     }
+
+    this.handleChange = this.handleChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
-  handleChange = e => {
+  handleChange(e) {
     this.setState({
       [e.target.name]: e.target.value
     })
   }
 
-  handleSubmit = e => {
+  handleSubmit(e) {
     e.preventDefault()
     const authType = this.props.signUp ? 'signup' : 'signin'
     this.props.onAuth(authType, this.state)
@@ -78,6 +81,7 @@ class AuthForm extends Component {
                 className='form-control'
                 id='password'
                 name='password'
+                value={password}
                 onChange={this.handleChange}
               />
               {signUp && (
