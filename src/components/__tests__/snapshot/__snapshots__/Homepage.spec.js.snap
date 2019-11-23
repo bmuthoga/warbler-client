@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the MessageTimeline page/component if a user is signed in 1`] = `
+<div>
+  <MessageTimeline
+    profileImageUrl="http://lorempixel.com/200/200/"
+    username="testemail"
+  />
+</div>
+`;
+
+exports[`should render the welcome page if no user is signed in 1`] = `
+<div
+  className="home-hero"
+>
+  <h1>
+    What's Happening?
+  </h1>
+  <h4>
+    New to Warbler?
+  </h4>
+  <Link
+    className="btn btn-primary"
+    to="/signup"
+  >
+    Sign up here
+  </Link>
+</div>
+`;
