@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import AuthForm from '../../AuthForm'
 import sinon from 'sinon'
+import AuthForm from '../../AuthForm'
 
 const removeError = jest.fn()
 const onAuth = sinon.fake.returns(Promise.resolve({}))
@@ -37,7 +37,7 @@ function shallowSetup() {
   return { loginProps, signUpProps, enzymeLoginWrapper, enzymeSignUpWrapper }
 }
 
-describe('AuthForm Tests', () => {
+describe('AuthForm Unit Tests', () => {
   let loginWrapper
   let signupWrapper
   

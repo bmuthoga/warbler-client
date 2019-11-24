@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the MessageTimeline page/component if a user is signed in 1`] = `
+exports[`Homepage Snapshot Tests should render the MessageTimeline page/component if a user is signed in 1`] = `
 <div>
   <MessageTimeline
     profileImageUrl="http://lorempixel.com/200/200/"
@@ -9,7 +9,7 @@ exports[`should render the MessageTimeline page/component if a user is signed in
 </div>
 `;
 
-exports[`should render the welcome page if no user is signed in 1`] = `
+exports[`Homepage Snapshot Tests should render the welcome page if no user is signed in 1`] = `
 <div
   className="home-hero"
 >
