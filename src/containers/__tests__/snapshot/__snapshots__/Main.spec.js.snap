@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Snapshot Tests should render the Main component 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
