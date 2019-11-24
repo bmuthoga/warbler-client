@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render Login form correctly 1`] = `
+exports[`AuthForm Snaphshot Tests should render Login form correctly 1`] = `
 <div>
   <div
     className="row justify-content-md-center text-center"
@@ -52,7 +52,7 @@ exports[`should render Login form correctly 1`] = `
 </div>
 `;
 
-exports[`should render SignUp form correctly 1`] = `
+exports[`AuthForm Snaphshot Tests should render SignUp form correctly 1`] = `
 <div>
   <div
     className="row justify-content-md-center text-center"
