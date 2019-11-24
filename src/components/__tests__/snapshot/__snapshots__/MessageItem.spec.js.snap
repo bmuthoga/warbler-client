@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageItem Snapshot Tests should render the MessageItem component with the Delete message button if the message belongs to the current user 1`] = `
+<div>
+  <li
+    className="list-group-item"
+  >
+    <img
+      alt="testemail"
+      className="timeline-image"
+      height="100"
+      src="http://lorempixel.com/200/200/"
+      width="100"
+    />
+    <div
+      className="message-area"
+    >
+      <Link
+        to="/"
+      >
+        @
+        testemail
+      </Link>
+       
+      <span
+        className="text-muted"
+      >
+        <t
+          ago={false}
+          calendar={false}
+          className="text-muted"
+          decimal={false}
+          element={null}
+          filter={[Function]}
+          format="DD MMM YYYY"
+          fromNow={false}
+          interval={60000}
+          local={false}
+          onChange={[Function]}
+          titleFormat=""
+          toNow={false}
+          unit={null}
+          unix={false}
+          utc={false}
+          withTitle={false}
+        >
+          2019-11-18T01:31:05.005Z
+        </t>
+      </span>
+      <p>
+        Sample message text
+      </p>
+      <a
+        className="btn btn-danger"
+        onClick={[MockFunction]}
+      >
+        Delete
+      </a>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`MessageItem Snapshot Tests should render the MessageItem component without the Delete message button if the message belongs to another user 1`] = `
+<div>
+  <li
+    className="list-group-item"
+  >
+    <img
+      alt="testemail"
+      className="timeline-image"
+      height="100"
+      src="http://lorempixel.com/200/200/"
+      width="100"
+    />
+    <div
+      className="message-area"
+    >
+      <Link
+        to="/"
+      >
+        @
+        testemail
+      </Link>
+       
+      <span
+        className="text-muted"
+      >
+        <t
+          ago={false}
+          calendar={false}
+          className="text-muted"
+          decimal={false}
+          element={null}
+          filter={[Function]}
+          format="DD MMM YYYY"
+          fromNow={false}
+          interval={60000}
+          local={false}
+          onChange={[Function]}
+          titleFormat=""
+          toNow={false}
+          unit={null}
+          unix={false}
+          utc={false}
+          withTitle={false}
+        >
+          2019-11-18T01:31:05.005Z
+        </t>
+      </span>
+      <p>
+        Sample message text
+      </p>
+    </div>
+  </li>
+</div>
+`;
