@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageForm Snapshot Tests should render the MessageForm component with error message 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="alert alert-danger"
+  >
+    Sample error message
+  </div>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    className="btn btn-success pull-right"
+    type="submit"
+  >
+    Add my message!
+  </button>
+</form>
+`;
+
+exports[`MessageForm Snapshot Tests should render the MessageForm component without error message 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    className="btn btn-success pull-right"
+    type="submit"
+  >
+    Add my message!
+  </button>
+</form>
+`;
