@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageTimeline Snapshot Tests should render the MessageTimeline component 1`] = `
+<div
+  className="row"
+>
+  <UserAside
+    profileImageUrl="http://lorempixel.com/200/200/"
+    username="testemail"
+  />
+  <Connect(MessageList) />
+</div>
+`;
