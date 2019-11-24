@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { fetchMessages, removeMessage, remove } from '../store/actions/messages'
 import MessageItem from '../components/MessageItem'
 
-class MessageList extends Component {
+export class MessageList extends Component {
   componentDidMount() {
     this.props.fetchMessages()
   }
