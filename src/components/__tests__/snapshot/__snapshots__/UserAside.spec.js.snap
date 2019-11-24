@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAside Snapshot Tests should render the UserAside component 1`] = `
+<aside
+  className="col-sm-2"
+>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-body"
+    >
+      <img
+        alt="testemail"
+        className="img-thumbnail"
+        src="http://lorempixel.com/200/200/"
+      />
+    </div>
+  </div>
+</aside>
+`;
