@@ -13,7 +13,7 @@ import { removeError } from '../store/actions/errors'
 import MessageForm from './MessageForm'
 import withAuth from '../hocs/withAuth'
 
-const Main = props => {
+export const Main = props => {
   const { authUser, errors, removeError, currentUser } = props
 
   return (
