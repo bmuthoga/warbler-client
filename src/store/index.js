@@ -5,10 +5,12 @@ import thunk from 'redux-thunk'
 export function configureStore() {
   const store = createStore(
     rootReducer,
-    compose(
-      applyMiddleware(thunk),
-      window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-    )
+    process.env.NODE_ENV !== 'development' ?
+      applyMiddleware(thunk) :
+      compose(
+        applyMiddleware(thunk),
+        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+      )
   )
 
   return store
