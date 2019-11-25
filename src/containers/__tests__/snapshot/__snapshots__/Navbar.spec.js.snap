@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Snapshot Tests should render the signed in state Navbar component 1`] = `
+<nav
+  className="navbar navbar-expand"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="navbar-header"
+    >
+      <Link
+        className="navbar-brand"
+        to="/"
+      >
+        <img
+          alt="Warbler Home"
+          src="warbler-logo.png"
+        />
+      </Link>
+    </div>
+    <ul
+      className="nav navbar-nav navbar-right"
+    >
+      <li>
+        <Link
+          to="/users/848hrjhgj48u4585/messages/new"
+        >
+          New Message
+        </Link>
+      </li>
+      <li>
+        <a
+          onClick={[Function]}
+        >
+          Log out
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
+
+exports[`Navbar Snapshot Tests should render the signed out state Navbar component 1`] = `
+<nav
+  className="navbar navbar-expand"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="navbar-header"
+    >
+      <Link
+        className="navbar-brand"
+        to="/"
+      >
+        <img
+          alt="Warbler Home"
+          src="warbler-logo.png"
+        />
+      </Link>
+    </div>
+    <ul
+      className="nav navbar-nav navbar-right"
+    >
+      <li>
+        <Link
+          to="/signup"
+        >
+          Sign up
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/signin"
+        >
+          Log in
+        </Link>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
