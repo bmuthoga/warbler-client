@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../images/warbler-logo.png'
 import { logout } from '../store/actions/auth'
 
-class Navbar extends Component {
+export class Navbar extends Component {
   logout = e => {
     e.preventDefault()
     this.props.logout()
