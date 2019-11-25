@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot Tests should render the App component 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <div
+      className="onboarding"
+    >
+      <Connect(Navbar) />
+      <withRouter(Connect(Main)) />
+    </div>
+  </BrowserRouter>
+</Provider>
+`;
