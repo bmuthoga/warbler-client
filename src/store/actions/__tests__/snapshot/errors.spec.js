@@ -1,7 +1,7 @@
 import configureMockStore from 'redux-mock-store'
-import { addError, removeError } from '../errors'
+import { addError, removeError } from '../../errors'
 
-describe('Errors Snapshot Tests', () => {
+describe('Errors Action Creators Snapshot Tests', () => {
   let store
   const mockStore = configureMockStore()
 
