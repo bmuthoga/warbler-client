@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withAuth Snapshot Tests should render the component with props.isAuthenticated equal to false 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Authenticate
+    dispatch={[Function]}
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    isAuthenticated={false}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`withAuth Snapshot Tests should render the component with props.isAuthenticated equal to true 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Authenticate
+    dispatch={[Function]}
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    isAuthenticated={true}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;
