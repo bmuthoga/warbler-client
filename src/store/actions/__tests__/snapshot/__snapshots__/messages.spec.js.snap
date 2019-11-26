@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages Action Creators Snapshot Tests should create LOAD_MESSAGES action if loading messages is successful 1`] = `
+Array [
+  Object {
+    "messages": Array [
+      Object {
+        "_id": "8995ijg85ug8u58g8g858",
+        "createdAt": "2019-11-23T16:45:46.174Z",
+        "text": "First sample message",
+        "updatedAt": "2019-11-23T16:45:46.174Z",
+        "user": Object {
+          "_id": "7f99fd9r7f800g8g8g9g",
+          "profileImageUrl": "http://lorempixel.com/200/200/",
+          "username": "firstTestUser",
+        },
+      },
+      Object {
+        "_id": "3h5k5h45k6g6g6k6kj6h6k",
+        "createdAt": "2019-11-23T16:45:46.174Z",
+        "text": "Second sample message",
+        "updatedAt": "2019-11-23T16:45:46.174Z",
+        "user": Object {
+          "_id": "4vb5kl97dsfu485gjig",
+          "profileImageUrl": "http://lorempixel.com/200/200/",
+          "username": "secondTestUser",
+        },
+      },
+    ],
+    "type": "LOAD_MESSAGES",
+  },
+]
+`;
+
+exports[`Messages Action Creators Snapshot Tests should create REMOVE_MESSAGE action if removing a message is successful 1`] = `
+Array [
+  Object {
+    "id": "484hjf8r99g94jg9jg",
+    "type": "REMOVE_MESSAGE",
+  },
+]
+`;
