@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, MemoryRouter as Router } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { shallow } from 'enzyme'
 import { Navbar } from '../../Navbar'
 
