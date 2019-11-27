@@ -1,7 +1,7 @@
 import errorReducer from '../../errors'
 import { ADD_ERROR, REMOVE_ERROR } from '../../../actionTypes'
 
-describe('Error Reducer Sanpshot Tests', () => {
+describe('Error Reducer Snapshot Tests', () => {
   it('should return the initial state', () => {
     expect(errorReducer(undefined, {})).toMatchSnapshot()
   })

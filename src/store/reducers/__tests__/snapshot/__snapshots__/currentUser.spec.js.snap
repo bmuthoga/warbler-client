@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Reducer Snapshot Tests should handle SET_CURRENT_USER 1`] = `
+Object {
+  "isAuthenticated": true,
+  "user": Object {
+    "id": "89498gh94ug95g0",
+    "profileImageUrl": "http://lorempixel.com/200/200/",
+    "username": "testUser",
+  },
+}
+`;
+
+exports[`Auth Reducer Snapshot Tests should return the initial state 1`] = `
+Object {
+  "isAuthenticated": false,
+  "user": Object {},
+}
+`;

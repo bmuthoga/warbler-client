@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Error Reducer Sanpshot Tests should handle ADD_ERROR 1`] = `
+exports[`Error Reducer Snapshot Tests should handle ADD_ERROR 1`] = `
 Object {
   "message": "Sample error message",
 }
 `;
 
-exports[`Error Reducer Sanpshot Tests should handle REMOVE_ERROR 1`] = `
+exports[`Error Reducer Snapshot Tests should handle REMOVE_ERROR 1`] = `
 Object {
   "message": null,
 }
 `;
 
-exports[`Error Reducer Sanpshot Tests should return the initial state 1`] = `
+exports[`Error Reducer Snapshot Tests should return the initial state 1`] = `
 Object {
   "message": null,
 }
