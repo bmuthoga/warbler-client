@@ -1,7 +1,5 @@
 import axios from 'axios'
 
-const isTestMode = process.env.NODE_ENV === 'test'
-
 export function setTokenHeader(token) {
   if (token) {
     axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
@@ -20,8 +18,6 @@ export function apiCall(method, path, data) {
   return new Promise((resolve, reject) => (
     axios[method](path, data)
       .then(res => resolve(res.data))
-      .catch(err => reject(!isTestMode ? 
-        err.response.data.error :
-        err))
+      .catch(err => reject(err.response.data.error))
   ))
 }
