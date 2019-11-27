@@ -32,6 +32,15 @@ Array [
 ]
 `;
 
+exports[`Messages Action Creators Snapshot Tests should create REMOVE_MESSAGE action if backend API successfully deletes a message 1`] = `
+Array [
+  Object {
+    "error": "connect ECONNREFUSED 127.0.0.1:80",
+    "type": "ADD_ERROR",
+  },
+]
+`;
+
 exports[`Messages Action Creators Snapshot Tests should create REMOVE_MESSAGE action if removing a message is successful 1`] = `
 Array [
   Object {
