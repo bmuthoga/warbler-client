@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages Reducer Snapshot Tests should handle LOAD_MESSAGES 1`] = `
+Array [
+  Object {
+    "_id": "87y42f49hg94h9g",
+    "createdAt": "2019-11-23T16:45:46.174Z",
+    "text": "First sample message",
+    "updatedAt": "2019-11-23T16:45:46.174Z",
+    "user": Object {
+      "_id": "938490u98r4jv94jvj8",
+      "profileImageUrl": "http://lorempixel.com/200/200/",
+      "username": "firstTestUser",
+    },
+  },
+  Object {
+    "_id": "9485g0984g04g0094g",
+    "createdAt": "2019-11-23T16:41:16.340Z",
+    "text": "Second sample message",
+    "updatedAt": "2019-11-23T16:41:16.340Z",
+    "user": Object {
+      "_id": "948v0845v704788r7v879r",
+      "profileImageUrl": "http://lorempixel.com/200/200/",
+      "username": "secondTestUser",
+    },
+  },
+]
+`;
+
+exports[`Messages Reducer Snapshot Tests should handle REMOVE_MESSAGE 1`] = `
+Array [
+  Object {
+    "_id": "87y42f49hg94h9g",
+    "createdAt": "2019-11-23T16:45:46.174Z",
+    "text": "First sample message",
+    "updatedAt": "2019-11-23T16:45:46.174Z",
+    "user": Object {
+      "_id": "938490u98r4jv94jvj8",
+      "profileImageUrl": "http://lorempixel.com/200/200/",
+      "username": "firstTestUser",
+    },
+  },
+]
+`;
+
+exports[`Messages Reducer Snapshot Tests should return the initial state 1`] = `Array []`;
