@@ -38,3 +38,7 @@ jobs:
 
       # run coverage!
       - run: yarn coverage
+
+      # store test results
+      - store_test_results:
+          path: test-results
