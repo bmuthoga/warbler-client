@@ -1,28 +1,16 @@
 import configureMockStore from 'redux-mock-store'
 import thunk from 'redux-thunk'
-import nock from 'nock'
-import axios from 'axios'
-import httpAdapter from 'axios/lib/adapters/http'
 import {
   loadMessages,
-  remove,
-  removeMessage,
-  fetchMessages,
-  postNewMessage
+  remove
 } from '../../messages'
 
 describe('Messages Action Creators Snapshot Tests', () => {
   let store
   const mockStore = configureMockStore([thunk])
-  const baseUrl = 'http://localhost:8081'
-  axios.defaults.adapter = httpAdapter
 
   beforeEach(() => {
     store = mockStore({})
-  })
-
-  afterEach(() => {
-    nock.cleanAll()
   })
 
   it('should create LOAD_MESSAGES action if loading messages is successful', () => {
@@ -58,18 +46,5 @@ describe('Messages Action Creators Snapshot Tests', () => {
     const messageId = '484hjf8r99g94jg9jg'
     store.dispatch(remove(messageId))
     expect(store.getActions()).toMatchSnapshot()
-  })
-
-  it('should create REMOVE_MESSAGE action if backend API successfully deletes a message', () => {
-    const userId = '743bh6juyoowe84t'
-    const messageId = 'urtg87598yu5uy85t'
-    nock(baseUrl)
-      .delete(`/api/users/${userId}/messages/${messageId}`)
-      .reply(200)
-
-    return store.dispatch(removeMessage(userId, messageId))
-      .then(() => {
-        expect(store.getActions()).toMatchSnapshot()
-      })
-  })
+  })  
 })
