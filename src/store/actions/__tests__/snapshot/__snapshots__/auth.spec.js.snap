@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Action Creators Snapshot Tests should create SET_CURRENT_USER action if signup/signin is successful 1`] = `
+Array [
+  Object {
+    "type": "SET_CURRENT_USER",
+    "user": Object {
+      "id": "7784fh489g90239f45",
+      "profileImageUrl": "http://lorempixel.com/200/200/",
+      "username": "testUser",
+    },
+  },
+]
+`;
