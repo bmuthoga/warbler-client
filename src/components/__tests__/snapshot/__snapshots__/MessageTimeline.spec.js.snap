@@ -5,7 +5,7 @@ exports[`MessageTimeline Snapshot Tests should render the MessageTimeline compon
   className="row"
 >
   <UserAside
-    profileImageUrl="http://lorempixel.com/200/200/"
+    profileImageUrl="https://lorempixel.com/200/200/"
     username="testemail"
   />
   <Connect(MessageList) />

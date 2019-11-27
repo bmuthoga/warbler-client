@@ -10,7 +10,7 @@ describe('Auth Reducer Snapshot Tests', () => {
     const user = {
       id: '89498gh94ug95g0',
       username: 'testUser',
-      profileImageUrl: 'http://lorempixel.com/200/200/'
+      profileImageUrl: 'https://lorempixel.com/200/200/'
     }
     expect(authReducer(undefined, { type: SET_CURRENT_USER, user })).toMatchSnapshot()
   })

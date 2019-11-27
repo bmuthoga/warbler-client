@@ -11,7 +11,7 @@ Array [
         "updatedAt": "2019-11-23T16:45:46.174Z",
         "user": Object {
           "_id": "7f99fd9r7f800g8g8g9g",
-          "profileImageUrl": "http://lorempixel.com/200/200/",
+          "profileImageUrl": "https://lorempixel.com/200/200/",
           "username": "firstTestUser",
         },
       },
@@ -22,7 +22,7 @@ Array [
         "updatedAt": "2019-11-23T16:45:46.174Z",
         "user": Object {
           "_id": "4vb5kl97dsfu485gjig",
-          "profileImageUrl": "http://lorempixel.com/200/200/",
+          "profileImageUrl": "https://lorempixel.com/200/200/",
           "username": "secondTestUser",
         },
       },

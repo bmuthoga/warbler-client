@@ -13,7 +13,7 @@ describe('Auth Action Creators Snapshot Tests', () => {
     const user = {
       id: '7784fh489g90239f45',
       username: 'testUser',
-      profileImageUrl: 'http://lorempixel.com/200/200/'
+      profileImageUrl: 'https://lorempixel.com/200/200/'
     }
     store.dispatch(setCurrentUser(user))
     expect(store.getActions()).toMatchSnapshot()

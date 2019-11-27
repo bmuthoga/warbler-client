@@ -3,7 +3,7 @@
 exports[`Homepage Snapshot Tests should render the MessageTimeline page/component if a user is signed in 1`] = `
 <div>
   <MessageTimeline
-    profileImageUrl="http://lorempixel.com/200/200/"
+    profileImageUrl="https://lorempixel.com/200/200/"
     username="testemail"
   />
 </div>

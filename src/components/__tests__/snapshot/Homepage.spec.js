@@ -20,7 +20,7 @@ describe('Homepage Snapshot Tests', () => {
       user: {
         id: '7474hhrutu5it',
         username: 'testemail',
-        profileImageUrl: 'http://lorempixel.com/200/200/'
+        profileImageUrl: 'https://lorempixel.com/200/200/'
       }
     }
     const wrapper = shallow(

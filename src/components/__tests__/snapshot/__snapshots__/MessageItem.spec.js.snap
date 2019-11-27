@@ -9,7 +9,7 @@ exports[`MessageItem Snapshot Tests should render the MessageItem component with
       alt="testemail"
       className="timeline-image"
       height="100"
-      src="http://lorempixel.com/200/200/"
+      src="https://lorempixel.com/200/200/"
       width="100"
     />
     <div
@@ -70,7 +70,7 @@ exports[`MessageItem Snapshot Tests should render the MessageItem component with
       alt="testemail"
       className="timeline-image"
       height="100"
-      src="http://lorempixel.com/200/200/"
+      src="https://lorempixel.com/200/200/"
       width="100"
     />
     <div

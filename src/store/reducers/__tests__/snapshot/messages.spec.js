@@ -14,7 +14,7 @@ describe('Messages Reducer Snapshot Tests', () => {
         user: {
           _id: '938490u98r4jv94jvj8',
           username: 'firstTestUser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         },
         createdAt: '2019-11-23T16:45:46.174Z',
         updatedAt: '2019-11-23T16:45:46.174Z'
@@ -25,7 +25,7 @@ describe('Messages Reducer Snapshot Tests', () => {
         user: {
           _id: '948v0845v704788r7v879r',
           username: 'secondTestUser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         },
         createdAt: '2019-11-23T16:41:16.340Z',
         updatedAt: '2019-11-23T16:41:16.340Z'
@@ -42,7 +42,7 @@ describe('Messages Reducer Snapshot Tests', () => {
         user: {
           _id: '938490u98r4jv94jvj8',
           username: 'firstTestUser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         },
         createdAt: '2019-11-23T16:45:46.174Z',
         updatedAt: '2019-11-23T16:45:46.174Z'
@@ -53,7 +53,7 @@ describe('Messages Reducer Snapshot Tests', () => {
         user: {
           _id: '948v0845v704788r7v879r',
           username: 'secondTestUser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         },
         createdAt: '2019-11-23T16:41:16.340Z',
         updatedAt: '2019-11-23T16:41:16.340Z'

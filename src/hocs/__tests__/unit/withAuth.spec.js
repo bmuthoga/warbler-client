@@ -20,7 +20,7 @@ describe('withAuth Unit Tests', () => {
         user: {
           id: '858htuhu58hhurh87',
           username: 'testuser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         }
       }
     })

@@ -4,7 +4,7 @@ import { shallow } from 'enzyme'
 import MessageTimeline from '../../MessageTimeline'
 
 const props = {
-  profileImageUrl: 'http://lorempixel.com/200/200/',
+  profileImageUrl: 'https://lorempixel.com/200/200/',
   username: 'testemail'
 }
 

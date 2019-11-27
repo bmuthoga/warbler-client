@@ -7,7 +7,7 @@ const messageItemProps= {
   date: '2019-11-18T01:31:05.005Z',
   text: 'Sample message text',
   username: 'testemail',
-  profileImageUrl: 'http://lorempixel.com/200/200/',
+  profileImageUrl: 'https://lorempixel.com/200/200/',
   removeMessage: jest.fn()
 }
 

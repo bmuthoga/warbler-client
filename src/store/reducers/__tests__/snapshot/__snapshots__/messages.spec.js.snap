@@ -9,7 +9,7 @@ Array [
     "updatedAt": "2019-11-23T16:45:46.174Z",
     "user": Object {
       "_id": "938490u98r4jv94jvj8",
-      "profileImageUrl": "http://lorempixel.com/200/200/",
+      "profileImageUrl": "https://lorempixel.com/200/200/",
       "username": "firstTestUser",
     },
   },
@@ -20,7 +20,7 @@ Array [
     "updatedAt": "2019-11-23T16:41:16.340Z",
     "user": Object {
       "_id": "948v0845v704788r7v879r",
-      "profileImageUrl": "http://lorempixel.com/200/200/",
+      "profileImageUrl": "https://lorempixel.com/200/200/",
       "username": "secondTestUser",
     },
   },
@@ -36,7 +36,7 @@ Array [
     "updatedAt": "2019-11-23T16:45:46.174Z",
     "user": Object {
       "_id": "938490u98r4jv94jvj8",
-      "profileImageUrl": "http://lorempixel.com/200/200/",
+      "profileImageUrl": "https://lorempixel.com/200/200/",
       "username": "firstTestUser",
     },
   },
