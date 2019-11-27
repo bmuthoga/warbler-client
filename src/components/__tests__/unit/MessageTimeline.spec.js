@@ -5,7 +5,7 @@ import MessageList from '../../../containers/MessageList'
 import UserAside from '../../UserAside'
 
 const props = {
-  profileImageUrl: 'http://lorempixel.com/200/200/',
+  profileImageUrl: 'https://lorempixel.com/200/200/',
   username: 'testemail'
 }
 

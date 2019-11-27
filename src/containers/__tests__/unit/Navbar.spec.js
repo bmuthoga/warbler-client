@@ -16,7 +16,7 @@ const currentUser = {
   user: {
     id: '848hrjhgj48u4585',
     username: 'testuser',
-    profileImageUrl: 'http://lorempixel.com/200/200/'
+    profileImageUrl: 'https://lorempixel.com/200/200/'
   }
 }
 

@@ -5,7 +5,7 @@ Object {
   "isAuthenticated": true,
   "user": Object {
     "id": "89498gh94ug95g0",
-    "profileImageUrl": "http://lorempixel.com/200/200/",
+    "profileImageUrl": "https://lorempixel.com/200/200/",
     "username": "testUser",
   },
 }

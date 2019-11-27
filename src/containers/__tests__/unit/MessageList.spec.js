@@ -12,7 +12,7 @@ const props = {
       user: {
         _id: '5dd9621e6b0e9763b9441697',
         username: 'tester10',
-        profileImageUrl: 'http://lorempixel.com/200/200/'
+        profileImageUrl: 'https://lorempixel.com/200/200/'
       },
       createdAt: '2019-11-23T16:45:46.174Z',
       updatedAt: '2019-11-23T16:45:46.174Z',

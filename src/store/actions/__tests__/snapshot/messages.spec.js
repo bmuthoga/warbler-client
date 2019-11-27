@@ -21,7 +21,7 @@ describe('Messages Action Creators Snapshot Tests', () => {
         user: {
           _id: '7f99fd9r7f800g8g8g9g',
           username: 'firstTestUser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         },
         createdAt: '2019-11-23T16:45:46.174Z',
         updatedAt: '2019-11-23T16:45:46.174Z'
@@ -32,7 +32,7 @@ describe('Messages Action Creators Snapshot Tests', () => {
         user: {
           _id: '4vb5kl97dsfu485gjig',
           username: 'secondTestUser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         },
         createdAt: '2019-11-23T16:45:46.174Z',
         updatedAt: '2019-11-23T16:45:46.174Z'

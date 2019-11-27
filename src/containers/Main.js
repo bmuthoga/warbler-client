@@ -2,8 +2,7 @@ import React from 'react';
 import { 
   Switch, 
   Route, 
-  withRouter,
-  Redirect 
+  withRouter
 } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Homepage from '../components/Homepage'

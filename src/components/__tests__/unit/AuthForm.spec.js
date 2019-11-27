@@ -88,7 +88,7 @@ describe('AuthForm Unit Tests', () => {
     })
     profileImageUrlSignUpInput.simulate('change', {
       target: {
-        value: 'http://lorempixel.com/200/200/',
+        value: 'https://lorempixel.com/200/200/',
         name: 'profileImageUrl'
       }
     })
@@ -189,7 +189,7 @@ describe('AuthForm Unit Tests', () => {
         expect(signupWrapper.state().email).toEqual('testemail@email.com')
         expect(signupWrapper.state().password).toEqual('password123')
         expect(signupWrapper.state().username).toEqual('testemail')
-        expect(signupWrapper.state().profileImageUrl).toEqual('http://lorempixel.com/200/200/')
+        expect(signupWrapper.state().profileImageUrl).toEqual('https://lorempixel.com/200/200/')
         expect(AuthForm.prototype.handleChange.called).toBe(true)
       })
   

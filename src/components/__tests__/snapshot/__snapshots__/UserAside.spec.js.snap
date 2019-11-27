@@ -13,7 +13,7 @@ exports[`UserAside Snapshot Tests should render the UserAside component 1`] = `
       <img
         alt="testemail"
         className="img-thumbnail"
-        src="http://lorempixel.com/200/200/"
+        src="https://lorempixel.com/200/200/"
       />
     </div>
   </div>

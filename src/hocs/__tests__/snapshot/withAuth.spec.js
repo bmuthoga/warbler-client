@@ -21,7 +21,7 @@ describe('withAuth Snapshot Tests', () => {
         user: {
           id: '7585jjjjgig85jtjv',
           username: 'testuser',
-          profileImageUrl: 'http://lorempixel.com/200/200/'
+          profileImageUrl: 'https://lorempixel.com/200/200/'
         }
       }
     })
