@@ -1,6 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Warbler Client
+A repository containing the frontend client for Warbler
+
+The webapp can be accessed from this [URL](https://warbler-client-bm.herokuapp.com)
+
+## Setup
+Clone this repository
+
+```https://github.com/bmuthoga/warbler-client.git```
+
+Navigate into its root directory
+
+```cd ./warbler-client```
+
+Install dependencies
+
+```yarn```
 
 ## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
