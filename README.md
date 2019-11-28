@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/bmuthoga/warbler-client/tree/master.svg?style=svg)](https://circleci.com/gh/bmuthoga/warbler-client/tree/master)
+
 # Warbler Client
 A repository containing the frontend client for Warbler
 
